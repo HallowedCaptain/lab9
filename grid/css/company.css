@@ -1,6 +1,8 @@
 .content {
+    grid-column: 1/4;
     color: black;
     align-self: center;
+    justify-self: center;
     width: 90%;
     flex-basis: 50%;
     font-size: 25px;
@@ -9,7 +11,6 @@
 .f-line {
     display: flex;
 }
-
 
 
 @media screen and (min-width: 1600px){
