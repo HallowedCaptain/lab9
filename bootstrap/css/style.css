@@ -5,7 +5,7 @@
     font-family: 'Jost', sans-seif;
     box-sizing: border-box;
 }
-a {
+ {
     text-decoration: none;
 }
 
@@ -76,7 +76,6 @@ a {
 .right-wrap ul li:nth-child(2) {
     margin: 0 20px;
 }
-
 .button:hover {
     border: solid 2px black;
 }
@@ -195,6 +194,8 @@ footer {
     display: block;
     width: 280px;
 }
+
+
 @media screen and (max-height: 850px){
     .big-logo {
         width: 600px;
@@ -218,7 +219,6 @@ footer {
 @media screen and (max-width: 1300px){
     .left-wrap, .green-1, .green-2 {
         display: none;
-
     }
     .right-wrap ul{
         justify-content: center;
@@ -238,8 +238,6 @@ footer {
         align-self: center;
     }
 }
-
-
 @media screen and (max-width: 950px) {
     .sous {
         height: 200px;
